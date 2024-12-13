@@ -42,6 +42,21 @@
         console.log(Math.sqrt(16))
         console.log(Math.random())
 
+    this.collection.unshift(book4); 
+    console.log("After Unshift (Added '1984' to the start):", this.collection);
+
+    this.collection.push(book3); 
+    console.log("After Push (Added 'To Kill a Mockingbird' to the end):", this.collection);
+
+   
+    this.collection.pop(); 
+    console.log("After Pop (Removed last book):", this.collection);
+  }
+
+
+// Call the method to modify the collection
+book.modifyCollection();
+
 
 
     </script>
